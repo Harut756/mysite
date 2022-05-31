@@ -1,0 +1,140 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header img{
+	width: 200px;
+	margin-left: 20px;
+}
+
+header{
+	display: flex;
+	background-color: black;
+	justify-content: space-between;
+	font-family: "Vibur", cursive;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.menu li{
+	margin-right: 15px;
+	border-right: 2px solid white;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+text-align: center;
+margin-right: 15px;
+}
+
+.menu a:hover{
+	color: #A36500;
+	transition: 0.5s;
+}
+
+
+.box img{
+	height: 500px;
+	width: 100%;
+}
+
+
+.container{
+	width: 1150px;
+	margin: 0 auto;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.container img{
+width: 600px;
+}
+
+h2{
+	font-size: 40px; 
+}
+
+hr{
+	width: 300px;
+	height: 4px;
+	border-radius: 4px;
+	background-color: #696968;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+.main p{
+	width: 400px; 
+	height: 240px;
+	color: black;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+form input:first-child{
+	font-size: 18px;
+	border-radius: 10px;
+	width: 135px;
+	height: 35px;
+	padding: 6px 10px 10px 10px;
+	background-color: silver; 
+	margin-right: 10px;
+}
+
+.main img{
+width: 40px;
+position: relative;
+top: 12px;
+right: 15px;
+}
+
+footer{
+background-color: black;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.parent{
+	display: inline-flex;
+}
+
+footer img{
+width: 25px;
+display: flex;
+align-items: center;
+margin-right: 10px;
+transition: 0.5s;
+}
+
+footer a:first-child{
+	margin-left: 40px;
+}
+
+.youtube{
+	width: 30px;
+}
+
+footer img:hover{
+	transform: scale(1.25);
+	transition: 0.5s;
+}
+
+footer p{
+	color: white;
+	margin-right: 40px;
+}

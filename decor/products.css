@@ -1,0 +1,475 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header img{
+	width: 200px;
+	margin-left: 20px;
+}
+
+header{
+	display: flex;
+	background-color: black;
+	justify-content: space-between;
+	font-family: "Vibur", cursive;
+}
+
+.menu{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.menu li{
+	margin-right: 15px;
+	border-right: 2px solid white;
+}
+
+.menu a{
+text-decoration: none;
+color: white;
+font-size: 25px;
+text-align: center;
+margin-right: 15px;
+}
+
+.menu a:hover{
+	color: #A36500;
+	transition: 0.5s;
+}
+
+
+.box img{
+	height: 500px;
+	width: 100%;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 50px;  
+}
+
+.parent{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.one-card{
+	height: 406px;
+	text-align: center; 
+	margin-top: 50px;
+}
+
+.one-card img{
+	width: 300px;
+	height: 200px;
+}
+
+.one-card-text p{
+	font-size: 15px;
+}
+
+.one-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.one-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.parent a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+.two-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.two-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.two-card-text p{
+	font-size: 15px;
+}
+
+.two-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.two-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.three-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.three-card img{
+	width: 300px;
+	height: 200px;
+}
+
+.three-card-text p{
+	font-size: 15px;
+}
+
+.three-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.three-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+.four-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.four-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.four-card-text p{
+	font-size: 15px;
+}
+
+.four-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.four-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+.five-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.five-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.five-card-text p{
+	font-size: 15px;
+}
+
+.five-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.five-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.six-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.six-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.six-card-text p{
+	font-size: 15px;
+}
+
+.six-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.six-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.seven-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.seven-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.seven-card-text p{
+	font-size: 15px;
+}
+
+.seven-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.seven-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+.eight-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.eight-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.eight-card-text p{
+	font-size: 15px;
+}
+
+.eight-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.eight-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.nine-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.nine-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.nine-card-text p{
+	font-size: 15px;
+}
+
+.nine-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.nine-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.ten-card{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.ten-card img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.ten-card-text p{
+	font-size: 15px;
+}
+
+.ten-card-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.ten-card-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.card-11{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.card-11 img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.card-11-text p{
+	font-size: 15px;
+}
+
+.card-11-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.card-11-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+.card-12{
+	height: 406px;
+	text-align: center;
+	margin-top: 50px; 
+}
+
+.card-12 img{
+	width: 300px;
+	height: 200px;
+}
+
+
+.card-12-text p{
+	font-size: 15px;
+}
+
+.card-12-text h3{
+	color: black;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 12px;
+}
+
+.card-12-text{
+	background-color: white;
+	box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+	width: 300px;
+	padding: 10px;
+}
+
+
+
+footer{
+background-color: black;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.parent{
+	display: inline-flex;
+}
+
+footer img{
+width: 25px;
+display: flex;
+align-items: center;
+margin-right: 10px;
+transition: 0.5s;
+}
+
+footer a:first-child{
+	margin-left: 40px;
+}
+
+.youtube{
+	width: 30px;
+}
+
+footer img:hover{
+	transform: scale(1.25);
+	transition: 0.5s;
+}
+
+footer p{
+	color: white;
+	margin-right: 40px;
+}
